@@ -1,0 +1,36 @@
+body {
+    background-color: blueviolet;
+}
+
+
+.LoginBox {
+    background-color: aqua;
+    border:0.2em solid;
+    padding: 1em;
+}
+form {display: grid;
+    width: 40em;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    grid-gap: 0.5em;
+}
+
+input[type="submit"] {
+    grid-column: 2;
+}
+
+.Registration {
+    background-color: aqua;
+    border:0.2em solid;
+    padding: 1em;
+}
+form {display: grid;
+    width: 40em;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    grid-gap: 0.5em;
+}
+
+input[type="submit"] {
+    grid-column: 2;
+}
